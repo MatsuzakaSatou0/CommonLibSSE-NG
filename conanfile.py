@@ -30,7 +30,7 @@ class CommonLibSSE(ConanFile):
         "se": True,
         "vr": True,
         "xbyak": False,
-        "spdlog:header_only": True
+        "spdlog:header_only": False
     }
     exports_sources = "CMakeLists.txt", "CMakePresets.json", "cmake/**", "include/**", "src/**", "tests/**", \
                       ".clang-format", "CommonLibSSE.natvis"
